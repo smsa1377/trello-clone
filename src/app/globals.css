@@ -1,0 +1,33 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --header-background: #20587a;
+  --body-color: rgb(64, 66, 75);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--body-color);
+  background: var(--background);
+  font-family:  "Roboto",Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
