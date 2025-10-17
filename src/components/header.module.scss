@@ -1,0 +1,49 @@
+.header {
+  color: #0a0a0a;
+  grid-area: header;
+
+  &_wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    -moz-box-align: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    background-color: rgb(46, 126, 175);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 0 40px inset;
+    transition: background-color 0.2s ease-in;
+  }
+
+  &_logo {
+    width: 10rem;
+    margin: 0 auto;
+  }
+
+  &_nav_board {
+    font-size: 1rem;
+    line-height: 1.5;
+    &_ul {
+      display: flex;
+    }
+    &_li {
+      display: flex;
+      -moz-box-align: center;
+      align-items: center;
+      margin-right: 0.5rem;
+      padding: 0.2rem 0.5rem;
+      color: rgba(255, 255, 255, 0.8);
+      border-radius: 3px;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: 0.2s ease-in;
+      &:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.25);
+      }
+      &_h3 {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+    }
+  }
+}
