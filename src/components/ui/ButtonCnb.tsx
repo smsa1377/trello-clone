@@ -1,5 +1,5 @@
 "use client"
-import styles from "./button-cnb.module.scss";
+import styles from "./ButtonCnb.module.scss";
 import {useState} from "react";
 import Image from "next/image";
 

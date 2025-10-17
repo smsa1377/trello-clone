@@ -1,5 +1,5 @@
-import styles from "../styles/home.module.scss";
-import ButtonCnb from "@/components/ui/button-cnb";
+import styles from "./Home.module.scss";
+import ButtonCnb from "@/components/ui/ButtonCnb";
 
 export default function Home() {
     return (
