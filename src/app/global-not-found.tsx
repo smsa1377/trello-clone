@@ -16,7 +16,7 @@ export default function GlobalNotFound() {
         <html lang="en" className={roboto.className}>
         <body>
         <div className={styles.container}>
-            <h1>I looked, it wasnt there. nope, nada, nothing.! 😕</h1>
+            <h1>I looked, it wasnt  there. nope, nada, nothing.! 😕</h1>
             <p>Check the address or return to the home page.</p>
             <Link href="/">
                 <button>Return to home</button>

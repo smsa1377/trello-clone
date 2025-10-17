@@ -5,7 +5,7 @@ import Image from "next/image";
 
 // button cnb (create new board)
 export default function ButtonCnb() {
-    const [activeButton, setActiveButton] = useState<boolean>(false);
+    const [activeButton, setActiveButton] = useState<boolean>(true);
     const handleButtonCNBClose = () => {
         setActiveButton(!activeButton);
     }
